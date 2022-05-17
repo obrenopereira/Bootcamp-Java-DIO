@@ -1,0 +1,92 @@
+# Fundamentos de algoritmos
+
+A função do computador é passar informação, que são compostas por dados e instruções.
+
+**Dados: numéricos, carácteres e os lógicos.** 
+
+### Variável
+
+Variável é um tipo de estrutura mutável,. que pode variar dentro do seu seu valo e pode ser mudada de acordo com o programa.
+
+- Ela pode assumir qualquer um dos valores de uma determina conjunto de valores.
+
+Boas práticas para nomeação de variável:
+
+- Atribuição de um ou mais caracteres
+- Primeira letra - não número
+- Sem espaços em branco
+- Velado
+    - Utilização de palavras reservadas
+- Caracteres e números
+
+Papéis de uma variável → Ação | Controle
+
+**Ação** - Modificação de estado
+
+**Controle** - Viagiada, controle
+
+### Constante
+
+Tudo aquilo que é fixo ou estável.
+
+*Inalterável, invariável, o que não muda*
+
+### Estruturas condicionais e operadores
+
+Estrutura Condicional
+
+SIMPLES | COMPOSTA | ENCADEADA
+
+**Simples** → Apenas verificamos se a condição foi satisfeita.
+
+**Composta** → Aqui verificamos a exceção, se tal condição não foi satisfeita, jogamos na exceção;
+
+**Encadeada** → Sucessão de estruturas, uma estrutura encadeada dentro da outra.
+
+Quando utilizar?
+
+- Verificação de V ou F
+- Substituição
+    - Encadeamento de condições
+
+### Estruturas de repetição
+
+Precisamos guiar uma repetição quando precisamos que determinado parâmetro seja passado várias vezes em um programa.
+
+Laço | Controle de fluxo | Malhas de repetição | Repetição | Loop
+
+Temos um estrutura de repetição que irá executar um trecho de um programa a partir de certos parâmetros que vai ser estabelecido.
+
+**Condição de parada**
+
+Benefícios
+
+- Redução de linhas
+- Compreensão facilitada
+- Redução de erro
+
+### Vetores e Matrizes
+
+Um vetor é caracterizado por uma variável dimensionada com tamanho pré-fixado.
+
+Matriz é um tabela organiza em linhas e colunas no formato m x n, onde o m representa o número de linhas (horizontal) e n o número de colunas (vertical).
+
+### Funções
+
+A função vai implicar que um elemento A esteja conectado a um elemento de um conjunto B, então a função a partir de um argumento que recebe, ela retorna um valor.
+
+→ As funções são blocos de instruções que realizam tarefas específicas
+
+~modularização do problema~
+
+**Vantagens:**
+
+- Modularização do programa
+- Código mais claro e conciso
+- Reutilização de instruções
+
+→ Blocos de instruções (código), identificado por **nomes e parâmetros**
+
+**Definição | Nome | Invocação | Variável local**
+
+**A função altera o estado do programa**
