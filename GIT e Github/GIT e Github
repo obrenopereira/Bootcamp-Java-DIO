@@ -1,0 +1,103 @@
+# GIT e Github
+
+## Benefíciod
+
+1. Controle de versão
+2. Armazenamento em nuvem
+3. Trabalho em equipe
+4. Melhorar seu código
+5. Reconhecimento
+
+O git é CLI - command line interface
+
+Primeiros comandos
+
+**dir** - *listar paginas* - vai mostrar uma lista de diretórios contidas na pasta que estamos;
+
+**cd** - *change directory -* esse comando possibilita que a gente navegue entre as pastas;
+
+**cd ..** - serve para voltar/retroceder de pasta em pasta
+
+**cls** - *clear screen*- usamos para poder limpar a tela, todo o histórico do cmd  
+
+**tab** (tecla) - tem a função de autocompletar
+
+**mkdir** - criar uma pasta
+
+**del** - deletar apenas **ARQUIVOS**
+
+setinha para cima para navegar entre o historico de comando
+
+ **rmdir**  + nome do repositorio + /S /Q - remover o **repositório**
+
+### SHA1
+
+A sigla SHA significa Secure Hash Algorithm (algoritmo de Hash Seguro), é um conjunto de funções hash criptográficas projetadas pela NSA(agência de Segurança Nacional  dos EUA).
+
+→ A encriptação gera um conjunto de caracteres identificador de 40 dígitos
+
+→ É uma forma curta de representar um arquivo
+
+### Objetos do GIT
+
+BLOBS   |   TREES   |   COMMITS
+
+Esses são os três tipos básicos de objetos no GIT responsáveis pelo versionamento do código.
+
+**Blob** → é o bloco básico de composição e contém os seguintes metadados do objeto ⇒ Tipo do objeto, tamanho do arquivo, um /0 e o conteúdo que desejamos passar.
+
+**Tree** → As trees armazenam Blobs e apontam para tipos de blobs diferentes. Uma tree pode apontar para outra tree.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2a470c04-e2b0-447c-8f1e-2d16ba6c0b9a/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2e79041c-421f-41c2-9cd7-b31a3f7dd6e3/Untitled.png)
+
+**Commit** - objeto mais importante de todos. Ele é o objeto que vai juntar tudo e vai dar sentido para as alterações que fizermos.
+
+O commit aponta para uma tree, para um parente (último commit antes dele), aponta para um autor e para uma mensagem.
+
+A mensagem serve para dar sentido ao que estamos fazendo e o autor para identificar quem está fazendo o que. E também tem o timestamp, que é o dia e a hora certa do que estamos fazendo.
+
+Os commits também possuem um sha1, como todos os outros, entao o que alterar em um lugar, vai alterar nos respectivos parentes.
+
+*O commit é unico para cada autor.*
+
+### Chaves SSH e Tokens
+
+**Chave SSH**
+
+Uma forma de estabelecer uma comunicação segura e encriptada entre duas máquinas.
+
+- Tem sempre uma chave pública e uma privada
+
+### Token de acesso pessoal
+
+**Meu token Github de acesso pessoal**
+
+```jsx
+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
+```
+
+### Primeiros comandos com GIT
+
+**git init** - para iniciarmos o repositório com o git
+
+**git add** - para mover, adicionar e começar realmente o versionamento
+
+**git commit** -  vamos criar nossos primeiros commits 
+
+**git status** - monitorar o status do arquivo
+
+**git remote add origin + link do repositorio do github -** para linkar com repositório do pc com o github
+
+**git push origin master** - para enviar (empurrar) o repositório para a branch master
+
+**git pull origin master -** ele puxa o arquivo para a máquina e nos permite ter acesso a onde está acontecendo algum conflito, para que possamos arrumar e dar um push com a versao certa
+
+ 
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3e6099b4-e09a-4db5-a403-6fe283b90f06/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d7670459-b864-4c2a-ae4d-649d939e6c09/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2fb091b2-7242-432d-8e33-671783bedd38/Untitled.png)
